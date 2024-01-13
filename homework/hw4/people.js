@@ -2,12 +2,12 @@ import { Application, Router, send } from "https://deno.land/x/oak/mod.ts";
  
 const peoples = new Map();
 peoples.set("john", {
-  account: "asdfghjkl",
-  password: "123456789",
+  account: "A",
+  password: "111222333",
 });
 peoples.set("mary", {
-  account: "qwertyuio",
-  password: "987654321",
+  account: "B",
+  password: "11313213",
 });
 
 const router = new Router();
